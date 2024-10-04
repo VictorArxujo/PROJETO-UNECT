@@ -1,18 +1,15 @@
-Ghxstyz
-
-body {
+Ghxstyz body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #F5F3ED;
+  background-color: #f5f3ed;
 }
 
- 
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #F5F3ED;
+  background-color: #f5f3ed;
 }
 
 .roboto-light {
@@ -23,17 +20,17 @@ body {
 
 .navbar {
   font-size: small;
-  background-color: #57290B;
+  background-color: #57290b;
   color: white;
   display: flex;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
   padding: 10px 200px;
   height: 100px;
 }
 
 .navbar a {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   color: #f2f2f2;
   text-decoration: none;
   font-size: 18px;
@@ -41,11 +38,11 @@ body {
 }
 
 .navbar a:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 70%;
   height: 3px;
-  background-color: #B2784A;
+  background-color: #b2784a;
   bottom: -5px;
   left: 15%;
   border-radius: 5px;
@@ -57,19 +54,19 @@ body {
   margin-top: 7px;
 }
 
-.logo{
+.logo {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.logo_text{
-  font-family: 'Cormorant Garamond';
+.logo_text {
+  font-family: "Cormorant Garamond";
   font-size: 18px;
 }
 
-.logo img{
+.logo img {
   width: 43px;
   height: 54px;
 }
@@ -81,12 +78,13 @@ body {
   margin-right: 2px;
   display: inline-block;
   vertical-align: middle;
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
 }
 
-.navbar a, .navbar .right {
+.navbar a,
+.navbar .right {
   padding: 10px 0;
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-size: 18px;
 }
 
@@ -99,7 +97,7 @@ body {
 .header img {
   width: 100%;
   height: 590px;
-  object-fit: cover; 
+  object-fit: cover;
 }
 
 .título-header {
@@ -133,7 +131,7 @@ body {
 }
 a {
   color: inherit; /*mantem a cor do texto*/
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .btn-header {
@@ -156,13 +154,12 @@ a {
   align-items: center;
   gap: 27px;
   border-radius: 8px;
-  background: #8F542E;
+  background: #8f542e;
   font-style: normal;
-
 }
 
 .about {
-  background-color: #F5F3ED;
+  background-color: #f5f3ed;
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-items: center;
@@ -171,20 +168,19 @@ a {
   object-fit: cover;
 }
 
-.container-about{
+.container-about {
   margin-left: 40px;
 }
 
-
-.title-about{
+.title-about {
   text-transform: uppercase;
   padding-top: 12px;
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   width: 255px;
   height: 56px;
   font-weight: 700;
   font-size: 40px;
-  background-image: linear-gradient(to bottom, #F5F3ED 50%, #FBC9A8 50%);
+  background-image: linear-gradient(to bottom, #f5f3ed 50%, #fbc9a8 50%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -199,10 +195,10 @@ a {
   object-fit: cover;
   border-radius: 8px;
   justify-self: center;
-  align-self: center; 
+  align-self: center;
 }
 
-.paragraphs{
+.paragraphs {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -211,8 +207,8 @@ a {
   padding: 20px 0 0 20px;
 }
 
-.button-layout{
-  background-color: #8F542E;
+.button-layout {
+  background-color: #8f542e;
   width: 282px;
   height: 57px;
   border-radius: 8px;
@@ -230,7 +226,7 @@ a {
   margin-left: 20px;
 }
 
-.button-props{
+.button-props {
   color: #f0f0f0;
   text-decoration: none;
   padding: 20px;
@@ -239,57 +235,56 @@ a {
 .imagem-graos {
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to bottom, #F5F3ED 50%, #80451F 50%);
+  background-image: linear-gradient(to bottom, #f5f3ed 50%, #80451f 50%);
 }
 
-.section-cafeteria{
-  background-color: #80451F;
+.section-cafeteria {
+  background-color: #80451f;
   width: 100%;
 }
 
 .carrossel {
   width: auto;
   height: 745px;
-  background-color: #80451F;
+  background-color: #80451f;
 }
 
-.título-carrossel{
-  font-family: 'Cormorant Garamont';
+.título-carrossel {
+  font-family: "Cormorant Garamont";
   font-style: normal;
   font-size: 20px;
   font-weight: 100;
   letter-spacing: 0.8px;
   text-transform: uppercase;
-  color:#F0F0F0;
+  color: #f0f0f0;
   margin-top: 3%;
   margin-left: 43.5%;
   position: relative;
 }
 .título-carrossel h1:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 15%;
   height: 3px;
-  background-color: #B2784A;
+  background-color: #b2784a;
   bottom: -5px;
   left: 20px;
   border-radius: 5px;
 }
 
-.container_carrossel{
+.container_carrossel {
   display: grid;
 }
 
-
-.carrossel-1{
+.carrossel-1 {
   width: 345px;
   height: 400px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   border-radius: 8px;
   position: absolute;
 }
 
-.carrossel-1 img{
+.carrossel-1 img {
   width: 314px;
   height: 277px;
   object-fit: cover;
@@ -299,7 +294,7 @@ a {
   top: 15px;
 }
 
-.título-brigadeiro{
+.título-brigadeiro {
   position: absolute;
   top: 73%;
   left: 15px;
@@ -308,11 +303,10 @@ a {
   font-weight: 700;
   line-height: 18px;
   text-transform: capitalize;
-  color: #1F0C00;
-  
+  color: #1f0c00;
 }
 
-.descrip-brigadeiro{
+.descrip-brigadeiro {
   position: absolute;
   top: 83%;
   left: 15px;
@@ -320,20 +314,20 @@ a {
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
-  color: #1F0C00;
+  color: #1f0c00;
   letter-spacing: 0.28px;
   margin-right: 5px;
 }
 
-.carrossel-2{
+.carrossel-2 {
   width: 345px;
   height: 400px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   border-radius: 8px;
   position: absolute;
 }
 
-.carrossel-2 img{
+.carrossel-2 img {
   width: 314px;
   height: 277px;
   object-fit: cover;
@@ -343,7 +337,7 @@ a {
   top: 15px;
 }
 
-.título-ginger{
+.título-ginger {
   position: absolute;
   top: 73%;
   left: 15px;
@@ -352,11 +346,10 @@ a {
   font-weight: 700;
   line-height: 18px;
   text-transform: capitalize;
-  color: #1F0C00;
-  
+  color: #1f0c00;
 }
 
-.descrip-ginger{
+.descrip-ginger {
   position: absolute;
   top: 83%;
   left: 15px;
@@ -364,21 +357,20 @@ a {
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
-  color: #1F0C00;
+  color: #1f0c00;
   letter-spacing: 0.28px;
   margin-right: 5px;
 }
 
-
-.carrossel-3{
+.carrossel-3 {
   width: 345px;
   height: 400px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   border-radius: 8px;
   position: absolute;
 }
 
-.carrossel-3 img{
+.carrossel-3 img {
   width: 314px;
   height: 277px;
   object-fit: cover;
@@ -388,7 +380,7 @@ a {
   top: 15px;
 }
 
-.título-cake{
+.título-cake {
   position: absolute;
   top: 73%;
   left: 15px;
@@ -397,11 +389,10 @@ a {
   font-weight: 700;
   line-height: 18px;
   text-transform: capitalize;
-  color: #1F0C00;
-  
+  color: #1f0c00;
 }
 
-.descrip-cake{
+.descrip-cake {
   position: absolute;
   top: 83%;
   left: 15px;
@@ -409,20 +400,20 @@ a {
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
-  color: #1F0C00;
+  color: #1f0c00;
   letter-spacing: 0.28px;
   margin-right: 5px;
 }
 
-.carrossel-4{
+.carrossel-4 {
   width: 345px;
   height: 400px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   border-radius: 8px;
   position: absolute;
 }
 
-.carrossel-4 img{
+.carrossel-4 img {
   width: 314px;
   height: 277px;
   object-fit: cover;
@@ -432,7 +423,7 @@ a {
   top: 15px;
 }
 
-.título-ice{
+.título-ice {
   position: absolute;
   top: 73%;
   left: 15px;
@@ -441,11 +432,10 @@ a {
   font-weight: 700;
   line-height: 18px;
   text-transform: capitalize;
-  color: #1F0C00;
-  
+  color: #1f0c00;
 }
 
-.descrip-ice{
+.descrip-ice {
   position: absolute;
   top: 83%;
   left: 15px;
@@ -453,12 +443,12 @@ a {
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
-  color: #1F0C00;
+  color: #1f0c00;
   letter-spacing: 0.28px;
   margin-right: 5px;
 }
 
-.contact-us-props{
+.contact-us-props {
   padding: 120px;
   display: flex;
   flex-direction: column;
@@ -466,117 +456,115 @@ a {
   margin: 0px;
 }
 
-.title-about.title-contact{
+.title-about.title-contact {
   height: 48px;
   font-size: 40px;
   width: 438px;
   text-align: left;
   margin: 0px;
-  }
+}
 
-.form-contact{
+.form-contact {
   width: 1200px;
   display: grid;
   grid-template-columns: 1fr 1.15fr;
   padding: 20px;
   margin: 0px;
 }
-    
-.info-contact{
-  background-color: #8F542E;
+
+.info-contact {
+  background-color: #8f542e;
   padding: 20px;
   border-radius: 8px 0px 0px 8px;
   display: inline;
 }
 
-.material-symbols-outlined{
+.material-symbols-outlined {
   width: 27px;
   height: 27px;
   margin-right: 10px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   border-radius: 5px;
-  color: #8F542E;
+  color: #8f542e;
 }
 
-.material-symbols-outlined.about{
-  background-color: #8F542E;
-  color: #F0F0F0;
+.material-symbols-outlined.about {
+  background-color: #8f542e;
+  color: #f0f0f0;
   padding: 0px;
 }
 
-.material-symbols-outlined.instagram{
-  color: #8F542E;
-  background-color: #F0F0F0;
+.material-symbols-outlined.instagram {
+  color: #8f542e;
+  background-color: #f0f0f0;
 }
 
-.container-contact{
+.container-contact {
   display: flex;
 }
 
-.container-contact img{
+.container-contact img {
   width: 24px;
   height: 31px;
   margin-right: 10px;
 }
 
-.text-contact{
-  color: #F0F0F0;
+.text-contact {
+  color: #f0f0f0;
   font-size: 18px;
   font-weight: 700;
   font-family: "Roboto", sans-serif;
 }
 
-.container-contact p{
+.container-contact p {
   margin-left: 10px;
   margin-top: 8px;
   align-items: center;
 }
 
-.line-contact{
+.line-contact {
   width: 348px;
   height: 3px;
-  background-color: #B2784A;
+  background-color: #b2784a;
   border: 3px;
   rotate: -0.16deg;
 }
 
-.container-contact-info{
+.container-contact-info {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 85px;
 }
 
-.image-contact{
+.image-contact {
   width: 127px;
   height: 162.03;
 }
 
-.text-contact-end{
-  font-family: 'Cormorant Garamond';
+.text-contact-end {
+  font-family: "Cormorant Garamond";
   width: 260px;
   height: 39px;
   font-size: 32px;
   font-weight: 200;
-  color: #F0F0F0;
+  color: #f0f0f0;
 }
-
 
 .form-container {
   display: flex;
   flex-direction: column;
   align-items: start;
   padding: 30px;
-
 }
 
-.form-props{
+.form-props {
   box-shadow: -4px 7px 29px 6px rgba(31, 12, 0, 0.2);
   margin: 0px;
   border-radius: 8px;
 }
 
-.text-form{
+.text-form {
   font-family: "Roboto", sans-serif;
   width: 74px;
   height: 30px;
@@ -584,34 +572,34 @@ a {
   font-size: 24px;
 }
 
-.text-form.props1{
+.text-form.props1 {
   margin-top: 40px;
   font-family: "Roboto", sans-serif;
 }
 
-.text-form.props2{
+.text-form.props2 {
   margin-top: 40px;
   font-family: "Roboto", sans-serif;
 }
 
-.input-form{
+.input-form {
   width: 609px;
   height: 70px;
   border-radius: 8px;
   border: 1px;
-  border-color: #8F542E;
+  border-color: #8f542e;
   border-style: solid;
   font-size: 21px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   padding-left: 10px;
   font-weight: 500;
 }
 
-.input-form.message{
+.input-form.message {
   height: 220px;
 }
 
-.button-layout.about{
+.button-layout.about {
   padding: 0px;
   margin-left: 0px;
 }
@@ -623,8 +611,8 @@ label {
 footer {
   width: 100%;
   height: 75px;
-  background-color: #57290B;
-  color: #FFDAB8;
+  background-color: #57290b;
+  color: #ffdab8;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -641,17 +629,17 @@ footer {
 .footer-text {
   width: 213px;
   height: 15.87;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 16px;
 }
 
-.container-contact-redes{
+.container-contact-redes {
   display: flex;
   margin-top: 15px;
 }
 
-.container-contact-redes p{
+.container-contact-redes p {
   margin-left: 10px;
   margin-top: 8px;
   align-items: center;
@@ -705,7 +693,7 @@ footer {
 .gallery {
   display: flex;
   gap: 15px;
-  }
+}
 
 .item {
   width: 313px;
@@ -722,7 +710,6 @@ footer {
   display: none;
 }
 
-
 .gallery-wrapper {
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -736,116 +723,103 @@ footer {
   border-radius: 8px;
 }
 
-.title{
+.title {
   font-size: 16px;
   font-weight: 700;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.about-paragraph{
+.about-paragraph {
   font-size: 18px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-/* Tamanhos de Tela Grandes (Desktop e Laptops) */
-@media (max-width: 1200px) {
-  .navbar {
-      padding: 10px 100px;
-  }
-
+@media only screen and (max-width: 768px) {
   .header img {
-      height: 400px;
+    height: auto;
+    width: 449px;
+  }
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    height: 64px;
+  }
+  .logo_text {
+    margin-left: 30px; /* Adiciona 71px de margem à esquerda do primeiro link */
+  }
+  .logo {
+    margin-left: 0px;
+  }
+  .logo img {
+    margin: auto;
+    padding-top: 1px;
   }
 
-  .about {
-      grid-template-columns: 1fr;
-      height: auto;
-      padding: 20px;
+  .right {
+    display: none;
   }
-
-  .about-image {
-      width: 100%;
-      height: auto;
+  .navbar a {
+    display: none;
   }
-
-  .container-about {
-      margin-left: 0px;
+  .subtítulo-header {
+    display: none;
   }
-
-  .button-layout {
-      margin-left: 0px;
-      width: 100%;
-  }
-
-  .container {
-      width: 100%;
-      height: auto;
+  * {
+    padding: 0px;
+    margin: 0px;
   }
 }
 
-
-/* Tamanhos de Tela Pequenos (Smartphones) */
-@media (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   .navbar {
-      flex-direction: column;
-      padding: 10px;
-      text-align: center;
+    padding: 10px 50px;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .navbar a {
+    font-size: 16px;
+    padding: 10px;
   }
 
   .navbar img {
-      height: 40px;
+    height: 60px;
   }
-
-  .título-header {
-      font-size: 24px;
-      padding: 20px;
-  }
-
-  .subtítulo-header {
-      font-size: 14px;
-      margin-top: 100px;
-      padding: 20px;
-  }
-
-  .btn-header {
-      font-size: 14px;
-      margin-left: 20px;
-      margin-bottom: 20px;
-  }
-
+}
+@media only screen and (max-width: 768px) {
   .about {
-      grid-template-columns: 1fr;
-      padding: 10px;
-  }
-
-  .about-image {
-      width: 100%;
-      height: auto;
-  }
-
-  .container-about {
-      margin-left: 0;
-  }
-
-  .button-layout {
-      width: 100%;
-      padding: 10px;
-  }
-
-  .container {
-      width: 100%;
-      height: auto;
+    grid-template-columns: 1fr;
+    height: auto;
+    padding: 20px;
   }
 
   .carrossel {
-      height: auto;
+    height: auto;
+    padding: 20px;
   }
 
   .carrossel-1,
   .carrossel-2,
   .carrossel-3,
   .carrossel-4 {
-      width: 100%;
-      height: auto;
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+  }
+
+  .carrossel-1 img,
+  .carrossel-2 img,
+  .carrossel-3 img,
+  .carrossel-4 img {
+    width: 100%;
+    height: auto;
   }
 }
